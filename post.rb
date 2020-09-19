@@ -1,13 +1,13 @@
 class Post
   def initialize
-    @created_at = Time.now
-    @text = nil
+    @created_at = Time.now #Дата создания записи
+    @text = nil #Массив строк записи
   end
   #запрашиваются записи пользователя
   def read_from_console
     #todo
   end
-
+  # Этот метод возвращает состояние объекта в виде массива строк, готовых к записи в файл
   def to_strings
     #todo
   end
